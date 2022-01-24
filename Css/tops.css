@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: black;
+  background-image: radial-gradient(
+      white,
+      rgba(255, 255, 255, 0.2) 2px,
+      transparent 40px
+    ),
+    radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px),
+    radial-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.1) 2px,
+      transparent 30px
+    );
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  margin: 0px 200px;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.logo p {
+  font-size: 25px;
+  padding: 0px 10px;
+  font-weight: bold;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0px 10px;
+  color: #fff;
+}
+
+.links a:hover {
+  background: #e63946;
+  transition: 0.5s all ease;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.table-tops {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+}
+
+table {
+  font-size: 25px;
+}
+
+table tr {
+  background: rgb(32, 32, 32);
+}
+
+table th {
+  padding: 10px;
+  color: #e63946;
+}
+
+table td {
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+  color: #00a8ec;
+}

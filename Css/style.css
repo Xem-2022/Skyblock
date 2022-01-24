@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: black;
+  background-image: radial-gradient(
+      white,
+      rgba(255, 255, 255, 0.2) 2px,
+      transparent 40px
+    ),
+    radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px),
+    radial-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.1) 2px,
+      transparent 30px
+    );
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  margin: 0px 200px;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.logo p {
+  font-size: 25px;
+  padding: 0px 10px;
+  font-weight: bold;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0px 10px;
+  color: #fff;
+}
+
+.links a:hover {
+  background: #e63946;
+  transition: 0.5s all ease;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+}
+
+.container img {
+  width: 60vh;
+  transition: 0.5s all ease;
+}
+
+.container img:hover {
+  transform: scale(1.1);
+}
+
+.container .text {
+  padding: 100px;
+}
+
+.container .text h1 {
+  margin-bottom: 20px;
+}
+.container .text p {
+  margin-bottom: 25px;
+}
+
+.container .text a {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #e63946;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  transition: 0.5s all ease;
+  text-decoration: none;
+}
+
+.container .text a:hover {
+  background: #e62434;
+}
